@@ -1,0 +1,20 @@
+#![warn(non_snake_case)]
+
+[package]
+name = "CopyPathListToClip"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[registries]
+ustc = { index = "https://mirrors.ustc.edu.cn/crates.io-index/" }
+
+[dependencies]
+serde_json = "1.0.96"
+# lazy_static = "1.4.0"
+regex = "1.7.3"
+clipboard = "0.5"
+
+[build-dependencies]
+winres = "0.1.12"
+winapi = "0.3.9"
