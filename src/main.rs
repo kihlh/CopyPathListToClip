@@ -8,7 +8,7 @@
     unused_assignments,
     non_snake_case
 )]
-
+#![windows_subsystem = "windows"]
 use std::io::{Read, Write};
 use std::net::{TcpListener, TcpStream};
 use std::ops::Add;
